@@ -11,11 +11,10 @@ public class Main {
         simplex.createSimplexTable(table);
         Simplex.printMatrix(simplex.simplex_table, simplex.n, simplex.m);
 
-        int col = simplex.getMainCol();
-        int row = simplex.getMainRow(col);
-        System.out.println(row+";"+col+" = "+simplex.simplex_table[row][col]);
         simplex.Calculate();
 
-        System.out.println("x1 = "+simplex.result[0]+" x2 = "+simplex.result[1]);
+        for (int i = 0; i < simplex.result.length; i++) {
+            System.out.print("\tx"+(i+1)+" = "+simplex.result[i]);
+        }
     }
 }
