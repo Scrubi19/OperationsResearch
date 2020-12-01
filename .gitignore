@@ -1,0 +1,7 @@
+/shelf/
+/workspace.xml
+.idea/
+*.iml
+*.iws
+log/
+target/
