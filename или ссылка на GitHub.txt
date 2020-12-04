@@ -1,1 +1,0 @@
-https://github.com/Scrubi19/OperationsResearch/tree/main/src/main/java/SimplexMethod
