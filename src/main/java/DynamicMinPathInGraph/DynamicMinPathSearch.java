@@ -8,9 +8,7 @@ public class DynamicMinPathSearch {
         int [][] parent = new int[size][size];
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                if (matrix[i][j] == INF) {
-                    parent[i][j] = INF;
-                } else {
+                if (matrix[i][j] != INF) {
                     parent[i][j] = j;
                 }
             }

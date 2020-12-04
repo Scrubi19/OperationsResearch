@@ -11,6 +11,6 @@ public class Main {
         Graph.printGraph("Graph after Floyd Warshall Method", graph.matrix_G);
         Graph.printGraph("Parent after Floyd Warshall Method", parent);
 
-        DynamicMinPathSearch.getMinPath(graph.matrix_G, parent, 1,5);
+        DynamicMinPathSearch.getMinPath(graph.matrix_G, parent, 1,7);
     }
 }
