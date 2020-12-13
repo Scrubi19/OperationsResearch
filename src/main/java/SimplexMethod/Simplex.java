@@ -25,7 +25,7 @@ public class Simplex {
 
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < m; j++) {
-                    table[i][j] = scanner.nextInt();
+                    table[i][j] = scanner.nextDouble();
                 }
             }
             result = new double[m-1];
